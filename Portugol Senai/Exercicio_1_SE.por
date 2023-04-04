@@ -13,17 +13,9 @@ programa
 		
 		se(numero1 == numero2){
 			escreva("Igual")
+		} senao { 
+			escreva("Diferente")
 		}
-
-		senao escreva("Diferente")
-		
-			
-
-
-
-
-
-
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 270; 
+ * @POSICAO-CURSOR = 265; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
