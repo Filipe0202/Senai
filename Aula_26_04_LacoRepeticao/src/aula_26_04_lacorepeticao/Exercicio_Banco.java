@@ -9,15 +9,14 @@ public class Exercicio_Banco {
         int numeroConta = Integer.parseInt(JOptionPane.showInputDialog("Informe o numero de sua conta: "));
         String nomeCliente = JOptionPane.showInputDialog("Informe seu nome:");
         float depositoInicial = Float.parseFloat(JOptionPane.showInputDialog("Informe o deposito Inicial: "));
-           // declaração de variaveis 
+        // declaração de variaveis 
         int op = 1;
         float valorDeposito, valorSaque, saldo;
         // saldo recebe deposito inicial
-        
-        saldo = depositoInicial;
-        
-        // inicio do "DO"
 
+        saldo = depositoInicial;
+
+        // inicio do "DO"
         do {
 
             op = Integer.parseInt(JOptionPane.showInputDialog("Informe a operação que deseja: \n 2 - Depósito \n 3 - Saque \n 4- Saldo \n 5 - Sair "));
